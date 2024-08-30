@@ -3,7 +3,10 @@
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^18.2.0",
-    "@angular/core": "^18.2.0"
+    "@angular/core": "^18.2.0",
+    "@trpc/server": "^11.0.0-rc.490",
+    "@googleapis/youtube": "^20.0.0",
+    "zod": "^3.23.8"
   },
   "dependencies": {
     "tslib": "^2.3.0"
