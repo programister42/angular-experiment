@@ -2,11 +2,13 @@
   "name": "trpc",
   "version": "0.0.1",
   "peerDependencies": {
-    "@angular/common": "^18.2.0",
-    "@angular/core": "^18.2.0",
     "@trpc/server": "^11.0.0-rc.490",
     "@googleapis/youtube": "^20.0.0",
+    "@types/aws-lambda": "^8.10.145",
     "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.145"
   },
   "dependencies": {
     "tslib": "^2.3.0"

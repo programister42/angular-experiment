@@ -2,6 +2,7 @@ import {
   type CreateAWSLambdaContextOptions,
   awsLambdaRequestHandler,
 } from '@trpc/server/adapters/aws-lambda';
+import type { APIGatewayProxyEventV2 } from 'aws-lambda';
 import { z } from 'zod';
 import { youtube } from '@googleapis/youtube';
 import { publicProcedure, router } from '../trpc';
