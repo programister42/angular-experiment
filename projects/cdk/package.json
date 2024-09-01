@@ -1,0 +1,16 @@
+{
+  "name": "cdk",
+  "version": "0.1.0",
+  "bin": {
+    "cdk": "bin/cdk.js"
+  },
+  "peerDependencies": {
+    "@types/node": "20.14.9",
+    "typescript": "~5.5.3",
+    "aws-cdk-lib": "2.155.0",
+    "constructs": "^10.0.0"
+  },
+  "devDependencies": {
+    "aws-cdk": "2.155.0"
+  }
+}
