@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:youtube-glow": "node dist/youtube-glow/server/server.mjs",
-    "build:lambdas": "bun projects/bun-utils/build-lambdas.ts",
+    "bundle:lambdas": "bun projects/bun-utils/build-lambdas.ts",
     "cdk": "cd ./projects/cdk && bunx cdk"
   },
   "private": true,

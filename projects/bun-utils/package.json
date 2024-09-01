@@ -1,0 +1,10 @@
+{
+  "name": "bun-utils",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@types/bun": "latest",
+    "@types/archiver": "^6.0.2",
+    "archiver": "^7.0.1"
+  },
+  "sideEffects": false
+}
