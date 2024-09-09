@@ -1,5 +1,5 @@
 {
-  "app": "bun bin/cdk.ts",
+  "app": "bun run ./bin/cdk.ts --bun",
   "watch": {
     "include": ["**"],
     "exclude": [
